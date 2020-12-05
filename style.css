@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:active{
+    color: lightgray;
+}
+a:hover{
+    color: gray;
+}
+body {
+    font-family: 'poppins',sans-serif;
+}
+header{
+    width: 19%;
+    align-items: center;
+    display: flex;
+    position: center;
+    transition:all 200ms ease-in;
+}
+.logo-container{
+    padding-left: 590px;
+    text-align: center;
+}
+
+.logo-container > img {
+    height: 110px;
+    position: center;
+    width: 1%;
+
+}
+.product{
+    display: flex;
+    text-align: center;
+    padding-left: 330px;
+    font-family: "Gill Sans", cursive;
+    transition: .25s;
+    z-index: 15;
+    width: 100%;
+    height: auto;
+}
+.women{
+    padding-right: 19px;
+}
+.men{
+    padding-right: 19px;
+}
+.children{
+    padding-right: 19px;
+
+}
+.home{
+    padding-right: 19px;
+}
+.jean{
+    padding-right: 19px;
+}
+.world{
+    padding-right: 19px;
+}
+.gift{
+    padding-right: 19px;
+
+}
+video{
+   height: 100%;
+   width: 100%;
+}
+.introduction{
+    text-align: center;
+    font-family: "Courier New";
+    margin-top: 30px;
+    color: #252525;
+}
+
+.introduction > h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.btn1{
+
+
+    display: inline;
+
+    justify-content: center;
+}
+.btn-gift{
+    flex-direction: column;
+    position: center;
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 30px;
+
+}
+.btn-gift1{
+    flex-direction: column;
+    position: center;
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+.btn-gift:hover{
+    background-color: black;
+    color: white;
+}
+.btn-gift1:hover{
+    background-color: black;
+    color: white;
+}
+.btn-full-film{
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+.gift-set{
+    display: flex;
+    width: 100%;
+}
+.gift-img{
+    margin-left: 3%;
+    width: 40%;
+    max-width: 100%;
+}
+.gift-info{
+    margin-left: 10%;
+    margin-top: 30%;
+    margin-bottom: 10px;
+}
+.gift-info > h2{
+    font-family: "Courier New";
+    color: #252525;
+    margin-bottom: 24px;
+}
+.gift-info > h4{
+    font-family: "Courier New";
+    color: #252525;
+    margin-bottom: 28px;
+}
+.btn-gift3{
+    flex-direction: column;
+    position: center;
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 215px;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 6px;
+}
+.btn-gift3:hover{
+    background-color: black;
+    color: white;
+}
+.card {
+    display: flex;
+    position: absolute;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
